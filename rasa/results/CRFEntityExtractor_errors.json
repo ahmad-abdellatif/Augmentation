@@ -1,0 +1,1692 @@
+[
+  {
+    "text": "what are the buggy commits that happened on Dec 19, 2017",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 48,
+        "end": 50,
+        "confidence_entity": 0.8075764808377689,
+        "value": "19",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 52,
+        "end": 56,
+        "confidence_entity": 0.7928351582884864,
+        "value": "2017",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 48,
+        "end": 50,
+        "confidence_entity": 0.9700803756713867,
+        "value": "19",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 52,
+        "end": 56,
+        "confidence_entity": 0.8930282592773438,
+        "value": "2017",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Determine the buggy commits that happened on Dec 19, 2017",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 49,
+        "end": 51,
+        "confidence_entity": 0.8075753783511348,
+        "value": "19",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 53,
+        "end": 57,
+        "confidence_entity": 0.7928322263611425,
+        "value": "2017",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 49,
+        "end": 51,
+        "confidence_entity": 0.9678913950920105,
+        "value": "19",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 53,
+        "end": 57,
+        "confidence_entity": 0.8724930286407471,
+        "value": "2017",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Determine the bug(s) introduced because of commit hash 0636928d961a6ceaab46d908f9372d913c3e5faf",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "commit_hash",
+        "start": 55,
+        "end": 95,
+        "confidence_entity": 0.7265989281573447,
+        "value": "0636928d961a6ceaab46d908f9372d913c3e5faf",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "commit_hash",
+        "start": 55,
+        "end": 95,
+        "confidence_entity": 0.9859644174575806,
+        "value": "0636928d961a6ceaab46d908f9372d913c3e5faf",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tell me buggy commits that happened on Dec 19, 2017",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 43,
+        "end": 45,
+        "confidence_entity": 0.8075753783511348,
+        "value": "19",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 47,
+        "end": 51,
+        "confidence_entity": 0.7928322263611425,
+        "value": "2017",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 43,
+        "end": 45,
+        "confidence_entity": 0.9685736298561096,
+        "value": "19",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 47,
+        "end": 51,
+        "confidence_entity": 0.8754797577857971,
+        "value": "2017",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "List all the commits that introduced bugs on Dec 19, 2017",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 49,
+        "end": 51,
+        "confidence_entity": 0.8075764808377689,
+        "value": "19",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 53,
+        "end": 57,
+        "confidence_entity": 0.7928351582884864,
+        "value": "2017",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 49,
+        "end": 51,
+        "confidence_entity": 0.970684289932251,
+        "value": "19",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 53,
+        "end": 57,
+        "confidence_entity": 0.8944831490516663,
+        "value": "2017",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Show buggy commits on 19-12-2018",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 22,
+        "end": 32,
+        "confidence_entity": 0.6742424535324579,
+        "value": "19-12-2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 22,
+        "end": 32,
+        "confidence_entity": 0.9219867587089539,
+        "value": "19-12-2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Determine the buggy commits that happened on July 2, 2018",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 50,
+        "end": 51,
+        "confidence_entity": 0.8075753783511348,
+        "value": "2",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 53,
+        "end": 57,
+        "confidence_entity": 0.7928322263611425,
+        "value": "2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 45,
+        "end": 51,
+        "confidence_entity": 0.7672569155693054,
+        "value": "July 2",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 53,
+        "end": 57,
+        "confidence_entity": 0.8760952949523926,
+        "value": "2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "buggy commits that happened on July 2",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 36,
+        "end": 37,
+        "confidence_entity": 0.6715139298684111,
+        "value": "2",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 31,
+        "end": 37,
+        "confidence_entity": 0.5952240824699402,
+        "value": "July 2",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what are the buggy commits that happened on July 2, 2018?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 49,
+        "end": 50,
+        "confidence_entity": 0.8075764808377689,
+        "value": "2",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 52,
+        "end": 56,
+        "confidence_entity": 0.7928351582884864,
+        "value": "2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 44,
+        "end": 50,
+        "confidence_entity": 0.7989800572395325,
+        "value": "July 2",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 52,
+        "end": 56,
+        "confidence_entity": 0.8963721394538879,
+        "value": "2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What are the buggy commits that happened on 2 July 2018?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 44,
+        "end": 55,
+        "confidence_entity": 0.8453780038941672,
+        "value": "2 July 2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 44,
+        "end": 55,
+        "confidence_entity": 0.9883286952972412,
+        "value": "2 July 2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how many buggy commit exist on July 2,2018",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 36,
+        "end": 42,
+        "confidence_entity": 0.6714429025628237,
+        "value": "2,2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 31,
+        "end": 42,
+        "confidence_entity": 0.5674781203269958,
+        "value": "July 2,2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "which commits fixed the issue KAFKA-7354?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 30,
+        "end": 40,
+        "confidence_entity": 0.6721205393364914,
+        "value": "KAFKA-7354",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 30,
+        "end": 40,
+        "confidence_entity": 0.9121953845024109,
+        "value": "KAFKA-7354",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what are the commit(s) that fixed bug ticket KAFKA-7354",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 45,
+        "end": 55,
+        "confidence_entity": 0.6714199346731766,
+        "value": "KAFKA-7354",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 45,
+        "end": 55,
+        "confidence_entity": 0.8952279090881348,
+        "value": "KAFKA-7354",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Determine the commit(s) that fixed bug ticket KAFKA-7354",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 46,
+        "end": 56,
+        "confidence_entity": 0.6714429025628237,
+        "value": "KAFKA-7354",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 46,
+        "end": 56,
+        "confidence_entity": 0.8969768285751343,
+        "value": "KAFKA-7354",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what commits fixed bug KAFKA-7354",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 23,
+        "end": 33,
+        "confidence_entity": 0.6742424535324579,
+        "value": "KAFKA-7354",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 23,
+        "end": 33,
+        "confidence_entity": 0.9147462248802185,
+        "value": "KAFKA-7354",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Show all the commits that fixed KAFKA-7354",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 32,
+        "end": 42,
+        "confidence_entity": 0.6715139298684111,
+        "value": "KAFKA-7354",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 32,
+        "end": 42,
+        "confidence_entity": 0.902389645576477,
+        "value": "KAFKA-7354",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Show fix of KAFKA-7354",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 12,
+        "end": 22,
+        "confidence_entity": 0.6706818887121224,
+        "value": "KAFKA-7354",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 12,
+        "end": 22,
+        "confidence_entity": 0.9148491621017456,
+        "value": "KAFKA-7354",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Determine the commit(s) that fixed bug ticket HHH-11965",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 46,
+        "end": 55,
+        "confidence_entity": 0.6714429025628237,
+        "value": "HHH-11965",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 46,
+        "end": 55,
+        "confidence_entity": 0.43885642290115356,
+        "value": "HHH-11965",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "which commits fixed the ticket HHH-11965",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 31,
+        "end": 40,
+        "confidence_entity": 0.6721205393364914,
+        "value": "HHH-11965",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 31,
+        "end": 40,
+        "confidence_entity": 0.35266655683517456,
+        "value": "HHH-11965",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "determine the commit(s) that fixed bug ticket HHH-11965",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 46,
+        "end": 55,
+        "confidence_entity": 0.6714429025628237,
+        "value": "HHH-11965",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 46,
+        "end": 55,
+        "confidence_entity": 0.4364200532436371,
+        "value": "HHH-11965",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What are the commits that fixed bug ticket HHH-11965?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 43,
+        "end": 52,
+        "confidence_entity": 0.6714199346731766,
+        "value": "HHH-11965",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 43,
+        "end": 52,
+        "confidence_entity": 0.4891264736652374,
+        "value": "HHH-11965",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Which commit fix HHH-11965 bug?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 17,
+        "end": 30,
+        "confidence_entity": 0.7354352387961516,
+        "value": "HHH-11965 bug",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "which fixing commits cause bugs on June 2018",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 40,
+        "end": 44,
+        "confidence_entity": 0.6714429025628237,
+        "value": "2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 35,
+        "end": 44,
+        "confidence_entity": 0.9718296527862549,
+        "value": "June 2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how many percentage of the fixing commits that introduced bugs on June 2018",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 71,
+        "end": 75,
+        "confidence_entity": 0.6714137761097644,
+        "value": "2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 66,
+        "end": 75,
+        "confidence_entity": 0.9939996004104614,
+        "value": "June 2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What is the percentage of the fixing commits that introduced bugs on June 2018",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 74,
+        "end": 78,
+        "confidence_entity": 0.6714137656605554,
+        "value": "2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 69,
+        "end": 78,
+        "confidence_entity": 0.9950742125511169,
+        "value": "June 2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "percentage of fixing commits that also introduced bugs June 2018",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 60,
+        "end": 64,
+        "confidence_entity": 0.6714150163848226,
+        "value": "2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 55,
+        "end": 64,
+        "confidence_entity": 0.988792359828949,
+        "value": "June 2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "determine the percentage of the fixing commits that introduced bugs in June 2018",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 76,
+        "end": 80,
+        "confidence_entity": 0.6714137761097644,
+        "value": "2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 71,
+        "end": 80,
+        "confidence_entity": 0.9940909743309021,
+        "value": "June 2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tell me about the commits between May 27th and May 31st in 2018.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 51,
+        "end": 63,
+        "confidence_entity": 0.834030965410234,
+        "value": "31st in 2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 34,
+        "end": 37,
+        "confidence_entity": 0.9893258810043335,
+        "value": "May",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 47,
+        "end": 50,
+        "confidence_entity": 0.9929434657096863,
+        "value": "May",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 59,
+        "end": 63,
+        "confidence_entity": 0.5462893843650818,
+        "value": "2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tell me about the commits from 05-27 to 05-31 in 2018",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 31,
+        "end": 39,
+        "confidence_entity": 0.637598582087181,
+        "value": "05-27 to",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 40,
+        "end": 53,
+        "confidence_entity": 0.729293798641298,
+        "value": "05-31 in 2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 31,
+        "end": 36,
+        "confidence_entity": 0.4599815905094147,
+        "value": "05-27",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 40,
+        "end": 45,
+        "confidence_entity": 0.47224462032318115,
+        "value": "05-31",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 49,
+        "end": 53,
+        "confidence_entity": 0.48057517409324646,
+        "value": "2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what are the commits I submit on 27/5/2018~31/5/2018",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 33,
+        "end": 52,
+        "confidence_entity": 0.6714429025628237,
+        "value": "27/5/2018~31/5/2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 33,
+        "end": 52,
+        "confidence_entity": 0.9959077835083008,
+        "value": "27/5/2018~31/5/2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what are the commits I submit on 27/5/2018-31/5/2018",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 33,
+        "end": 52,
+        "confidence_entity": 0.6714429025628237,
+        "value": "27/5/2018-31/5/2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 33,
+        "end": 52,
+        "confidence_entity": 0.9958893656730652,
+        "value": "27/5/2018-31/5/2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "determine the commits information that happened between 27/5/2018 - 31/5/2018",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 56,
+        "end": 65,
+        "confidence_entity": 0.8075702120368343,
+        "value": "27/5/2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 68,
+        "end": 77,
+        "confidence_entity": 0.79281859097473,
+        "value": "31/5/2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 56,
+        "end": 65,
+        "confidence_entity": 0.995944082736969,
+        "value": "27/5/2018",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 68,
+        "end": 77,
+        "confidence_entity": 0.9951157569885254,
+        "value": "31/5/2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Can you show the commits information that happened between May 27 2018 to May 31st 2018?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 63,
+        "end": 70,
+        "confidence_entity": 0.7671905327738039,
+        "value": "27 2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 78,
+        "end": 87,
+        "confidence_entity": 0.7637883451569344,
+        "value": "31st 2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 59,
+        "end": 70,
+        "confidence_entity": 0.654941201210022,
+        "value": "May 27 2018",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 74,
+        "end": 77,
+        "confidence_entity": 0.9960007071495056,
+        "value": "May",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 83,
+        "end": 87,
+        "confidence_entity": 0.7014760375022888,
+        "value": "2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Please tell me the commits information that happened between 27/5/2018 - 31/5/2018",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 61,
+        "end": 70,
+        "confidence_entity": 0.8075764808377689,
+        "value": "27/5/2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 73,
+        "end": 82,
+        "confidence_entity": 0.7928351582884864,
+        "value": "31/5/2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 61,
+        "end": 70,
+        "confidence_entity": 0.9958095550537109,
+        "value": "27/5/2018",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 73,
+        "end": 82,
+        "confidence_entity": 0.9948760867118835,
+        "value": "31/5/2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "determine the commits information that happened between 1/1/2017 to 31/1/2017",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 56,
+        "end": 77,
+        "confidence_entity": 0.8453635201440401,
+        "value": "1/1/2017 to 31/1/2017",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 56,
+        "end": 64,
+        "confidence_entity": 0.9953043460845947,
+        "value": "1/1/2017",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 68,
+        "end": 77,
+        "confidence_entity": 0.9959251880645752,
+        "value": "31/1/2017",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what are the commits information that happened between 1/1/2017 to 31/1/2017",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 55,
+        "end": 76,
+        "confidence_entity": 0.8453780038941672,
+        "value": "1/1/2017 to 31/1/2017",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 55,
+        "end": 63,
+        "confidence_entity": 0.9953141212463379,
+        "value": "1/1/2017",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 67,
+        "end": 76,
+        "confidence_entity": 0.9957529306411743,
+        "value": "31/1/2017",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "commits information that happened between 1/1/2017 to 31/1/2017",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 42,
+        "end": 63,
+        "confidence_entity": 0.8449942333278002,
+        "value": "1/1/2017 to 31/1/2017",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 42,
+        "end": 50,
+        "confidence_entity": 0.9949873685836792,
+        "value": "1/1/2017",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 54,
+        "end": 63,
+        "confidence_entity": 0.9959697723388672,
+        "value": "31/1/2017",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "which commits were done from 1/1/2017 to 31/1/2017",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 29,
+        "end": 50,
+        "confidence_entity": 0.8449942333278002,
+        "value": "1/1/2017 to 31/1/2017",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 29,
+        "end": 37,
+        "confidence_entity": 0.9949890971183777,
+        "value": "1/1/2017",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 41,
+        "end": 50,
+        "confidence_entity": 0.9959858059883118,
+        "value": "31/1/2017",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tell me the change history of NetworkClientUtils.java",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 30,
+        "end": 53,
+        "confidence_entity": 0.7199803900626787,
+        "value": "NetworkClientUtils.java",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "filename",
+        "start": 30,
+        "end": 53,
+        "confidence_entity": 0.9762440323829651,
+        "value": "NetworkClientUtils.java",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "please tell me all the changes on file NetworkClientUtils.java",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 39,
+        "end": 62,
+        "confidence_entity": 0.7201483519880766,
+        "value": "NetworkClientUtils.java",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "filename",
+        "start": 34,
+        "end": 38,
+        "confidence_entity": 0.9769933819770813,
+        "value": "file",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "filename",
+        "start": 39,
+        "end": 62,
+        "confidence_entity": 0.9757012128829956,
+        "value": "NetworkClientUtils.java",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Who fix most bugs in KafkaAdminClient.java?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 21,
+        "end": 42,
+        "confidence_entity": 0.7192802262253385,
+        "value": "KafkaAdminClient.java",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 21,
+        "end": 42,
+        "confidence_entity": 0.5458431243896484,
+        "value": "KafkaAdminClient.java",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Determine the developers that had the most fixed bugs in KafkaAdminClient.java",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 57,
+        "end": 78,
+        "confidence_entity": 0.7201567366648951,
+        "value": "KafkaAdminClient.java",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 57,
+        "end": 78,
+        "confidence_entity": 0.5514417886734009,
+        "value": "KafkaAdminClient.java",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Who fixed the bugs in KafkaAdminClient.java",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 22,
+        "end": 43,
+        "confidence_entity": 0.7192802262253385,
+        "value": "KafkaAdminClient.java",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 22,
+        "end": 43,
+        "confidence_entity": 0.5374911427497864,
+        "value": "KafkaAdminClient.java",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Who fixed the largest amount of bugs in KafkaAdminClient.java?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 40,
+        "end": 61,
+        "confidence_entity": 0.7201483519880766,
+        "value": "KafkaAdminClient.java",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 40,
+        "end": 61,
+        "confidence_entity": 0.5652692914009094,
+        "value": "KafkaAdminClient.java",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "List the developers that fixed bugs in NetworkClientUtils.java",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 39,
+        "end": 62,
+        "confidence_entity": 0.7201160703929795,
+        "value": "NetworkClientUtils.java",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "filename",
+        "start": 39,
+        "end": 62,
+        "confidence_entity": 0.9765989780426025,
+        "value": "NetworkClientUtils.java",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who are the devs most qualified for fixing bugs on file HibernateEntityManager.java",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 56,
+        "end": 83,
+        "confidence_entity": 0.720157064604005,
+        "value": "HibernateEntityManager.java",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "filename",
+        "start": 51,
+        "end": 55,
+        "confidence_entity": 0.9717109799385071,
+        "value": "file",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "filename",
+        "start": 56,
+        "end": 83,
+        "confidence_entity": 0.9858550429344177,
+        "value": "HibernateEntityManager.java",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Who the most experience developer in fixing bug for the component HibernateEntityManager.java?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 66,
+        "end": 93,
+        "confidence_entity": 0.720157064604005,
+        "value": "HibernateEntityManager.java",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "filename",
+        "start": 66,
+        "end": 93,
+        "confidence_entity": 0.9845166802406311,
+        "value": "HibernateEntityManager.java",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "determine the number of commits that happened in the past 30 days?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 58,
+        "end": 65,
+        "confidence_entity": 0.7437205239854163,
+        "value": "30 days",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 53,
+        "end": 57,
+        "confidence_entity": 0.9068633317947388,
+        "value": "past",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 58,
+        "end": 60,
+        "confidence_entity": 0.9099246263504028,
+        "value": "30",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "How many commits do I have between 27/5/2018 - 31/5/2018",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 35,
+        "end": 44,
+        "confidence_entity": 0.8075702120368343,
+        "value": "27/5/2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 47,
+        "end": 56,
+        "confidence_entity": 0.79281859097473,
+        "value": "31/5/2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 35,
+        "end": 44,
+        "confidence_entity": 0.9959818124771118,
+        "value": "27/5/2018",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 47,
+        "end": 56,
+        "confidence_entity": 0.9951796531677246,
+        "value": "31/5/2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "How many commits do I have during the period between 27/5/2018 - 31/5/2018",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 53,
+        "end": 62,
+        "confidence_entity": 0.8075767348819733,
+        "value": "27/5/2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 65,
+        "end": 74,
+        "confidence_entity": 0.79283578487959,
+        "value": "31/5/2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 53,
+        "end": 62,
+        "confidence_entity": 0.9955334663391113,
+        "value": "27/5/2018",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 65,
+        "end": 74,
+        "confidence_entity": 0.9948000907897949,
+        "value": "31/5/2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "How many commits do you have between 27/5/2018 - 31/5/2018",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 37,
+        "end": 46,
+        "confidence_entity": 0.8075702120368343,
+        "value": "27/5/2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 49,
+        "end": 58,
+        "confidence_entity": 0.79281859097473,
+        "value": "31/5/2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 37,
+        "end": 46,
+        "confidence_entity": 0.9959450364112854,
+        "value": "27/5/2018",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 49,
+        "end": 58,
+        "confidence_entity": 0.9951493144035339,
+        "value": "31/5/2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "How many commits between 27-05-2018 and 31-05-2018",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 25,
+        "end": 50,
+        "confidence_entity": 0.8435267715695208,
+        "value": "27-05-2018 and 31-05-2018",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 25,
+        "end": 35,
+        "confidence_entity": 0.8902062773704529,
+        "value": "27-05-2018",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 40,
+        "end": 50,
+        "confidence_entity": 0.911448061466217,
+        "value": "31-05-2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "number of commits in november 2017",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 30,
+        "end": 34,
+        "confidence_entity": 0.6721205393364914,
+        "value": "2017",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 30,
+        "end": 34,
+        "confidence_entity": 0.434880793094635,
+        "value": "2017",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "number of commits in january 2017",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 29,
+        "end": 33,
+        "confidence_entity": 0.6721205393364914,
+        "value": "2017",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 29,
+        "end": 33,
+        "confidence_entity": 0.41253426671028137,
+        "value": "2017",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "number of commits between 1/1/2017 to 31/1/2017",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 26,
+        "end": 47,
+        "confidence_entity": 0.8435267715695208,
+        "value": "1/1/2017 to 31/1/2017",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 26,
+        "end": 34,
+        "confidence_entity": 0.9950200319290161,
+        "value": "1/1/2017",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 38,
+        "end": 47,
+        "confidence_entity": 0.995864987373352,
+        "value": "31/1/2017",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tell me the bugs which were caused by commit 0636928d961a6ceaab46d908f9372d913c3e5faf?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "commit_hash",
+        "start": 45,
+        "end": 85,
+        "confidence_entity": 0.7266077299594765,
+        "value": "0636928d961a6ceaab46d908f9372d913c3e5faf",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "commit_hash",
+        "start": 45,
+        "end": 85,
+        "confidence_entity": 0.9846862554550171,
+        "value": "0636928d961a6ceaab46d908f9372d913c3e5faf",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "is it the bug(s) introduced because of commit hash 0636928d961a6ceaab46d908f9372d913c3e5faf",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "commit_hash",
+        "start": 51,
+        "end": 91,
+        "confidence_entity": 0.7266077299594765,
+        "value": "0636928d961a6ceaab46d908f9372d913c3e5faf",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "commit_hash",
+        "start": 51,
+        "end": 91,
+        "confidence_entity": 0.9847816228866577,
+        "value": "0636928d961a6ceaab46d908f9372d913c3e5faf",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Show me the bug that got introduced by the commit 0636928d961a6ceaab46d908f9372d913c3e5faf",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "commit_hash",
+        "start": 50,
+        "end": 90,
+        "confidence_entity": 0.7266096167299827,
+        "value": "0636928d961a6ceaab46d908f9372d913c3e5faf",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "commit_hash",
+        "start": 50,
+        "end": 90,
+        "confidence_entity": 0.9834516048431396,
+        "value": "0636928d961a6ceaab46d908f9372d913c3e5faf",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show bugs because of 0636928d961a6ceaab46d908f9372d913c3e5faf",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "commit_hash",
+        "start": 21,
+        "end": 61,
+        "confidence_entity": 0.7213317295086017,
+        "value": "0636928d961a6ceaab46d908f9372d913c3e5faf",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "commit_hash",
+        "start": 21,
+        "end": 61,
+        "confidence_entity": 0.984649121761322,
+        "value": "0636928d961a6ceaab46d908f9372d913c3e5faf",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Determine the bug(s) introduced because of commit hash 00d7baedfab13b8436beaa2c95b24dd3d6af7f5e",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "commit_hash",
+        "start": 55,
+        "end": 95,
+        "confidence_entity": 0.7265989281573447,
+        "value": "00d7baedfab13b8436beaa2c95b24dd3d6af7f5e",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "commit_hash",
+        "start": 55,
+        "end": 95,
+        "confidence_entity": 0.9833645224571228,
+        "value": "00d7baedfab13b8436beaa2c95b24dd3d6af7f5e",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Determine the problems introduced in commit 00d7baedfab13b8436beaa2c95b24dd3d6af7f5e",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "commit_hash",
+        "start": 44,
+        "end": 84,
+        "confidence_entity": 0.726386651907708,
+        "value": "00d7baedfab13b8436beaa2c95b24dd3d6af7f5e",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "commit_hash",
+        "start": 44,
+        "end": 84,
+        "confidence_entity": 0.9833163619041443,
+        "value": "00d7baedfab13b8436beaa2c95b24dd3d6af7f5e",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Determine the bug introduced because of commit hash 00d7baedfab13b8436beaa2c95b24dd3d6af7f5e",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "commit_hash",
+        "start": 52,
+        "end": 92,
+        "confidence_entity": 0.7265989281573447,
+        "value": "00d7baedfab13b8436beaa2c95b24dd3d6af7f5e",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "commit_hash",
+        "start": 52,
+        "end": 92,
+        "confidence_entity": 0.9833643436431885,
+        "value": "00d7baedfab13b8436beaa2c95b24dd3d6af7f5e",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Do this commit 00d7baedfab13b8436beaa2c95b24dd3d6af7f5e introduce a bug?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "commit_hash",
+        "start": 15,
+        "end": 55,
+        "confidence_entity": 0.38898318226110284,
+        "value": "00d7baedfab13b8436beaa2c95b24dd3d6af7f5e",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "commit_hash",
+        "start": 15,
+        "end": 55,
+        "confidence_entity": 0.8955802321434021,
+        "value": "00d7baedfab13b8436beaa2c95b24dd3d6af7f5e",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

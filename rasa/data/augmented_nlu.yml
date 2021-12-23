@@ -1,0 +1,122 @@
+version: "2.0"
+nlu:
+- regex: filename
+  examples: |
+    - [^\\ ]*\.(\w+)
+- regex: issue_number
+  examples: |
+    - #?[0-9]+
+- regex: commit_hash
+  examples: |
+    - [0-9a-f]{7,40}
+- intent: PassingData
+  examples: |
+    - How to pass [javascript](PL) array variable through [jquery](Fram) $ .window url to [codeigniter](Fram) controller ?
+    - [PHP](PL) send array to another [PHP](PL) file
+    - passing and read [javascript](PL) variable to [smarty](Fram)
+    - How to move content from [QListWidget](API) to a [QStringList](API) with [PyQt4](Fram) ?
+    - Date convertion between [JS](PL) and [PHP](PL)
+    - How to pass an array through $.window to codeigniter controller
+    - How to pass an array to a controller through jquery $.window
+    - How to pass an array through $.window to codeigniter controller?
+    - How to pass an array from one PHP file to another?
+    - How to send array to another php file?
+    - How to send an array to another php file?
+    - How can I pass a javascript variable to smarty?
+    - How to send a Javascript variable to a smarty?
+    - How to pass a javascript variable to a smarty?
+    - How to move a list from QListWidget to a QStringList
+    - Qt: QListWidget to a QStringList
+    - How to move data from QListWidget to QStringList?
+    - Convert date string to date string in PHP
+    - Convert date string to Date object in PHP
+    - Convert string to date in PHP
+- intent: FacingError
+  examples: |
+    - [python](PL) [DLL](Stan) load failed ( [statsmodels](Fram) )
+    - [Hibernate](Fram) calls flush on find
+    - causes not-null error
+    - [spring 4.0.2](Fram) schema error
+    - [Visual studio 2010](Fram) and [SAP crystal reports](Fram) app crash
+    - [java](PL) compiler error for hw
+    - How to load a DLL file in python?
+    - How to load dll in python?
+    - How to load a dll file from python?
+    - Hibernate - Call flush function on find()
+    - Hibernate: How to flush the database after find?
+    - Hibernate: Is there a way to flush the database when I find a specific value?
+    - JavaScript: cause not-null error
+    - Why does not-null not work in C#?
+    - How to fix "not null" error in C#
+    - Spring 4.0.2 schema error while trying to run a project
+    - Spring 4.0.2 schema error when trying to upload an image
+    - SAP crystal reports app crash for Visual Studio 2010
+    - SAP crystal reports app crash on windows 10
+    - SAP crystal reports app crash in Visual Studio 2010
+    - java.lang.IllegalArgumentException: No such file or directory
+    - Error while trying to run an application on a JVM
+    - java.lang.IllegalArgumentException: Error in thread "main" java.util.Object
+- intent: LookingForBestPractice
+  examples: |
+    - Is salting with a hashed version of the user ' s password just as secure as salting with a pre-defined string ?
+    - How to write an efficient hit counter for websites
+    - Are there drawbacks to implementing [onClickListener](API) for each [ListView](API) row instead of [onItemClickListener](API) ?
+    - What way is better when executing queries from [Java](PL)
+    - How do I left pad a byte array efficiently
+    - Is salting with a hashed version of the user's password just as secure as using a pre-defined string?
+    - Is salting with a hashed version of the user's password just as secure as salting using a pre-defined string?
+    - Is it safe to use a pre-defined password for salting in python?
+    - How to create an efficient hit counter?
+    - How to make a website that shows the number of times a user has hit a button?
+    - How to create an efficient hit counter for websites?
+    - What is the difference between onClickListener and onItemClickListener?
+    - Why do we need to use onClickListener in ListView instead of onItemClickListener
+    - What are the pros and cons of using onClickListener in a ListView?
+    - Is there a better way to execute SQL queries from Java?
+    - Is it better to use Java or C# to perform the query?
+    - What is the best way to perform a query in Java?
+    - How do I leave pad a byte array in Java?
+    - How do I leave pad a byte array in C?
+- intent: UsingMethodImproperly
+  examples: |
+    - [jQuery](Fram) tabs are not clicking when clicked on
+    - Unable to pass test with [Mock](Fram)
+    - Why this [promise](Fram) does not work ?
+    - [PHP](PL) Script Not Receiving [Post](API) Data
+    - [Canvas](Fram) [toDataURL()](API) method is saving low resolution image
+    - Jquery Tab click not working
+    - jQuery Tab click not working
+    - jQuery Tab not clicking when clicked
+    - How to pass a mock test?
+    - Mockito: Unable to pass test
+    - Mockito cannot pass test with Mockito
+    - Why does this Promise not work?
+    - Why does this promise not work?
+    - Why is my promise not working?
+    - How to post data from PHP script to php server
+    - PHP Script not getting data from server
+    - PHP Script not receiving data from POST request
+    - Canvas toDataURL is not saving low resolution images
+    - Canvas toDataURL is not saving the image
+    - Canvas toDataURL not saving image
+- intent: LookingForCodeSample
+  examples: |
+    - Is it possible to use [javascript](PL) to check if a webserver is up ?
+    - [Java Recursion](API) Over A Text File
+    - Select element by tag inside a [div](API) with [javascript](PL)
+    - How to set the [Object3D](Fram) position and rotation same as the added mesh ?
+    - [php](PL) , [mySQL](PL) return last x rows
+    - How to check if a web server is up?
+    - How to check if a web server is up or not?
+    - How to check if a web server is up or not
+    - How do I pass a text file to a Recursive method in Java?
+    - How to iterate through a text file in java?
+    - How to read a text file and write to it?
+    - How to select an element by its tag using javascript?
+    - How to select an element by its tag in javascript?
+    - How to select a div by a specific tag in javascript
+    - How to set the object3d position and rotation same as the added mesh?
+    - PHP, mysqli, mysql, get the last result
+    - How to get the last result in php?
+    - How to get the last row of a mysql table?
+

@@ -1,0 +1,31 @@
+version: "2.0"
+nlu:
+- intent: last_build_fail
+  examples: |
+    - what's the building data for [CinemaCatalog](service)?
+- intent: service_env
+  examples: |
+    - tell me all about the server.
+    - env
+- intent: service_dependency_graph
+  examples: |
+    - give me the dependency overview
+- intent: service_health
+  examples: |
+    - please give me health data.
+- intent: service_api_list
+  examples: |
+    - service's API list for [GroceryInventory](service)
+    - the API list for [GroceryInventory](service)
+- intent: service_info
+  examples: |
+    - Please give me the [GroceryInventory](service)'s info.
+    - detail about [GroceryInventory](service)
+- intent: service_only
+  examples: |
+    - [GroceryInventory](service)
+    - about [CinemaCatalog](service)
+- intent: service_using_info
+  examples: |
+    - [GroceryInventory](service)'s amount overview
+    - give me the using information for [GroceryInventory](service) please.

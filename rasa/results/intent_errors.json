@@ -1,0 +1,418 @@
+[
+  {
+    "text": "what are the buggy commits that happened on Dec 19, 2017",
+    "intent": "BuggyCommitsByDate",
+    "intent_prediction": {
+      "name": "GetCommitBodyByDatePeriod",
+      "confidence": 0.5822284817695618
+    }
+  },
+  {
+    "text": "Determine the buggy commits that happened on Dec 19, 2017",
+    "intent": "BuggyCommitsByDate",
+    "intent_prediction": {
+      "name": "GetCommitBodyByDatePeriod",
+      "confidence": 0.6067588925361633
+    }
+  },
+  {
+    "text": "Determine the bug(s) introduced because of commit hash 0636928d961a6ceaab46d908f9372d913c3e5faf",
+    "intent": "BuggyCommitsByDate",
+    "intent_prediction": {
+      "name": "IntroducedBugsByCommit",
+      "confidence": 0.7167575359344482
+    }
+  },
+  {
+    "text": "tell me buggy commits that happened on Dec 19, 2017",
+    "intent": "BuggyCommitsByDate",
+    "intent_prediction": {
+      "name": "GetCommitBodyByDatePeriod",
+      "confidence": 0.716407060623169
+    }
+  },
+  {
+    "text": "List all the commits that introduced bugs on Dec 19, 2017",
+    "intent": "BuggyCommitsByDate",
+    "intent_prediction": {
+      "name": "GetCommitBodyByDatePeriod",
+      "confidence": 0.6011462211608887
+    }
+  },
+  {
+    "text": "Show buggy commits on 19-12-2018",
+    "intent": "BuggyCommitsByDate",
+    "intent_prediction": {
+      "name": "GetCommitBodyByDatePeriod",
+      "confidence": 0.8494541049003601
+    }
+  },
+  {
+    "text": "Determine the buggy commits that happened on July 2, 2018",
+    "intent": "BuggyCommitsByDate",
+    "intent_prediction": {
+      "name": "GetCommitBodyByDatePeriod",
+      "confidence": 0.697625458240509
+    }
+  },
+  {
+    "text": "buggy commits that happened on July 2",
+    "intent": "BuggyCommitsByDate",
+    "intent_prediction": {
+      "name": "GetCommitBodyByDatePeriod",
+      "confidence": 0.6548694372177124
+    }
+  },
+  {
+    "text": "what are the buggy commits that happened on July 2, 2018?",
+    "intent": "BuggyCommitsByDate",
+    "intent_prediction": {
+      "name": "GetCommitBodyByDatePeriod",
+      "confidence": 0.6773732900619507
+    }
+  },
+  {
+    "text": "What are the buggy commits that happened on 2 July 2018?",
+    "intent": "BuggyCommitsByDate",
+    "intent_prediction": {
+      "name": "GetCommitBodyByDatePeriod",
+      "confidence": 0.676489531993866
+    }
+  },
+  {
+    "text": "how many buggy commit exist on July 2,2018",
+    "intent": "BuggyCommitsByDate",
+    "intent_prediction": {
+      "name": "GetCommitBodyByDatePeriod",
+      "confidence": 0.8455109000205994
+    }
+  },
+  {
+    "text": "which commits fixed the issue KAFKA-7354?",
+    "intent": "FixingCommitsForBugTicket",
+    "intent_prediction": {
+      "name": "MostDeveloperHasOpenedBugs",
+      "confidence": 0.3943939208984375
+    }
+  },
+  {
+    "text": "Show fix of KAFKA-7354",
+    "intent": "FixingCommitsForBugTicket",
+    "intent_prediction": {
+      "name": "GetCommitBodyByDatePeriod",
+      "confidence": 0.36104947328567505
+    }
+  },
+  {
+    "text": "which commits fixed the ticket HHH-11965",
+    "intent": "FixingCommitsForBugTicket",
+    "intent_prediction": {
+      "name": "MostDeveloperHasOpenedBugs",
+      "confidence": 0.5140386819839478
+    }
+  },
+  {
+    "text": "Which commit fix HHH-11965 bug?",
+    "intent": "FixingCommitsForBugTicket",
+    "intent_prediction": {
+      "name": "MostDeveloperHasOpenedBugs",
+      "confidence": 0.824251115322113
+    }
+  },
+  {
+    "text": "which fixing commits cause bugs on June 2018",
+    "intent": "FixingCommitsIntroducedBugs",
+    "intent_prediction": {
+      "name": "MostDeveloperHasOpenedBugs",
+      "confidence": 0.413446843624115
+    }
+  },
+  {
+    "text": "Who last modified NetworkClientUtils",
+    "intent": "GetCommitsInfoAboutSpecificClass",
+    "intent_prediction": {
+      "name": "GetNumberOfCommitByDate",
+      "confidence": 0.5014821290969849
+    }
+  },
+  {
+    "text": "Who fix most bugs in KafkaAdminClient.java?",
+    "intent": "GetDevelopersWhoHasExperianceToFixBug",
+    "intent_prediction": {
+      "name": "GetCommitsInfoAboutSpecificClass",
+      "confidence": 0.5458594560623169
+    }
+  },
+  {
+    "text": "Determine the developers that had the most fixed bugs in KafkaAdminClient.java",
+    "intent": "GetDevelopersWhoHasExperianceToFixBug",
+    "intent_prediction": {
+      "name": "MostDeveloperHasOpenedBugs",
+      "confidence": 0.39668330550193787
+    }
+  },
+  {
+    "text": "Who fixed the bugs in KafkaAdminClient.java",
+    "intent": "GetDevelopersWhoHasExperianceToFixBug",
+    "intent_prediction": {
+      "name": "GetCommitsInfoAboutSpecificClass",
+      "confidence": 0.4211253821849823
+    }
+  },
+  {
+    "text": "Who fixed the largest amount of bugs in KafkaAdminClient.java?",
+    "intent": "GetDevelopersWhoHasExperianceToFixBug",
+    "intent_prediction": {
+      "name": "GetCommitsInfoAboutSpecificClass",
+      "confidence": 0.6823955178260803
+    }
+  },
+  {
+    "text": "List the developers that fixed bugs in NetworkClientUtils.java",
+    "intent": "GetDevelopersWhoHasExperianceToFixBug",
+    "intent_prediction": {
+      "name": "MostDeveloperHasOpenedBugs",
+      "confidence": 0.752480149269104
+    }
+  },
+  {
+    "text": "List the top 10 developers that fixed most of the bugs in KafkaAdminClient.java file",
+    "intent": "GetDevelopersWhoHasExperianceToFixBug",
+    "intent_prediction": {
+      "name": "MostDeveloperHasOpenedBugs",
+      "confidence": 0.2401067316532135
+    }
+  },
+  {
+    "text": "Who fixed the bugs in KafkaAdminClient?",
+    "intent": "GetDevelopersWhoHasExperianceToFixBug",
+    "intent_prediction": {
+      "name": "FixingCommitsForBugTicket",
+      "confidence": 0.25280317664146423
+    }
+  },
+  {
+    "text": "Who last fixed bugs in KafkaAdminClient?",
+    "intent": "GetDevelopersWhoHasExperianceToFixBug",
+    "intent_prediction": {
+      "name": "MostDeveloperHasOpenedBugs",
+      "confidence": 0.437356561422348
+    }
+  },
+  {
+    "text": "who are the devs most qualified for fixing bugs on file HibernateEntityManager.java",
+    "intent": "GetDevelopersWhoHasExperianceToFixBug",
+    "intent_prediction": {
+      "name": "MostFileContainsBugs",
+      "confidence": 0.33788931369781494
+    }
+  },
+  {
+    "text": "who's should fix the bug in HibernateEntityManager",
+    "intent": "GetDevelopersWhoHasExperianceToFixBug",
+    "intent_prediction": {
+      "name": "FixingCommitsIntroducedBugs",
+      "confidence": 0.38672518730163574
+    }
+  },
+  {
+    "text": "Who the most experience developer in fixing bug for the component HibernateEntityManager.java?",
+    "intent": "GetDevelopersWhoHasExperianceToFixBug",
+    "intent_prediction": {
+      "name": "FixingCommitsIntroducedBugs",
+      "confidence": 0.3023236095905304
+    }
+  },
+  {
+    "text": "Which developer is capable for fixing a HibernateEntityManager bug?",
+    "intent": "GetDevelopersWhoHasExperianceToFixBug",
+    "intent_prediction": {
+      "name": "MostDeveloperHasOpenedBugs",
+      "confidence": 0.8369206786155701
+    }
+  },
+  {
+    "text": "Who is most likely to fix a HibernateEntityManager.java bug?",
+    "intent": "GetDevelopersWhoHasExperianceToFixBug",
+    "intent_prediction": {
+      "name": "MostDeveloperHasOpenedBugs",
+      "confidence": 0.2906700074672699
+    }
+  },
+  {
+    "text": "How many commits I submit last month?",
+    "intent": "GetNumberOfCommitByDate",
+    "intent_prediction": {
+      "name": "MostDeveloperHasOpenedBugs",
+      "confidence": 0.3595881462097168
+    }
+  },
+  {
+    "text": "determine the number of commits that happened in the last month",
+    "intent": "GetNumberOfCommitByDate",
+    "intent_prediction": {
+      "name": "FixingCommitsIntroducedBugs",
+      "confidence": 0.2708231508731842
+    }
+  },
+  {
+    "text": "How many commits do I have in the last month?",
+    "intent": "GetNumberOfCommitByDate",
+    "intent_prediction": {
+      "name": "MostDeveloperHasOpenedBugs",
+      "confidence": 0.4436144530773163
+    }
+  },
+  {
+    "text": "determine the number of commits that happened in the past 30 days?",
+    "intent": "GetNumberOfCommitByDate",
+    "intent_prediction": {
+      "name": "GetCommitBodyByDatePeriod",
+      "confidence": 0.5189801454544067
+    }
+  },
+  {
+    "text": "How many commits do I have between 27/5/2018 - 31/5/2018",
+    "intent": "GetNumberOfCommitByDate",
+    "intent_prediction": {
+      "name": "GetCommitBodyByDatePeriod",
+      "confidence": 0.8422588109970093
+    }
+  },
+  {
+    "text": "How many commits do I have during the period between 27/5/2018 - 31/5/2018",
+    "intent": "GetNumberOfCommitByDate",
+    "intent_prediction": {
+      "name": "GetCommitBodyByDatePeriod",
+      "confidence": 0.7910711765289307
+    }
+  },
+  {
+    "text": "How many commits do you have between 27/5/2018 - 31/5/2018",
+    "intent": "GetNumberOfCommitByDate",
+    "intent_prediction": {
+      "name": "GetCommitBodyByDatePeriod",
+      "confidence": 0.8425402641296387
+    }
+  },
+  {
+    "text": "How many commits where made in the last month?",
+    "intent": "GetNumberOfCommitByDate",
+    "intent_prediction": {
+      "name": "GetCommitBodyByDatePeriod",
+      "confidence": 0.2891732454299927
+    }
+  },
+  {
+    "text": "How many commit were there last month?",
+    "intent": "GetNumberOfCommitByDate",
+    "intent_prediction": {
+      "name": "FixingCommitsIntroducedBugs",
+      "confidence": 0.39791300892829895
+    }
+  },
+  {
+    "text": "How many commits between 27-05-2018 and 31-05-2018",
+    "intent": "GetNumberOfCommitByDate",
+    "intent_prediction": {
+      "name": "GetCommitBodyByDatePeriod",
+      "confidence": 0.794522762298584
+    }
+  },
+  {
+    "text": "number of commits last month",
+    "intent": "GetNumberOfCommitByDate",
+    "intent_prediction": {
+      "name": "GetCommitBodyByDatePeriod",
+      "confidence": 0.40693405270576477
+    }
+  },
+  {
+    "text": "determine the number of commits that happened in last month.",
+    "intent": "GetNumberOfCommitByDate",
+    "intent_prediction": {
+      "name": "FixingCommitsIntroducedBugs",
+      "confidence": 0.25441041588783264
+    }
+  },
+  {
+    "text": "how many commits in the last month",
+    "intent": "GetNumberOfCommitByDate",
+    "intent_prediction": {
+      "name": "GetCommitBodyByDatePeriod",
+      "confidence": 0.34429654479026794
+    }
+  },
+  {
+    "text": "number of commits in november 2017",
+    "intent": "GetNumberOfCommitByDate",
+    "intent_prediction": {
+      "name": "GetCommitBodyByDatePeriod",
+      "confidence": 0.8502357602119446
+    }
+  },
+  {
+    "text": "number of commits last year",
+    "intent": "GetNumberOfCommitByDate",
+    "intent_prediction": {
+      "name": "GetCommitBodyByDatePeriod",
+      "confidence": 0.5195087194442749
+    }
+  },
+  {
+    "text": "number of commits in january 2017",
+    "intent": "GetNumberOfCommitByDate",
+    "intent_prediction": {
+      "name": "GetCommitBodyByDatePeriod",
+      "confidence": 0.8837389349937439
+    }
+  },
+  {
+    "text": "number of commits between 1/1/2017 to 31/1/2017",
+    "intent": "GetNumberOfCommitByDate",
+    "intent_prediction": {
+      "name": "GetCommitBodyByDatePeriod",
+      "confidence": 0.8599243760108948
+    }
+  },
+  {
+    "text": "what are the number of commits that happened in last month",
+    "intent": "GetNumberOfCommitByDate",
+    "intent_prediction": {
+      "name": "FixingCommitsIntroducedBugs",
+      "confidence": 0.33257022500038147
+    }
+  },
+  {
+    "text": "Who has the most unfixed bugs?",
+    "intent": "MostDeveloperHasOpenedBugs",
+    "intent_prediction": {
+      "name": "MostFileContainsBugs",
+      "confidence": 0.35661253333091736
+    }
+  },
+  {
+    "text": "who had the most unfixed bugs",
+    "intent": "MostDeveloperHasOpenedBugs",
+    "intent_prediction": {
+      "name": "MostFileContainsBugs",
+      "confidence": 0.3518364727497101
+    }
+  },
+  {
+    "text": "Which file has most bugs?",
+    "intent": "MostFileContainsBugs",
+    "intent_prediction": {
+      "name": "MostDeveloperHasOpenedBugs",
+      "confidence": 0.6310037970542908
+    }
+  },
+  {
+    "text": "Which file has the largest number of bugs?",
+    "intent": "MostFileContainsBugs",
+    "intent_prediction": {
+      "name": "MostDeveloperHasOpenedBugs",
+      "confidence": 0.2785574495792389
+    }
+  }
+]

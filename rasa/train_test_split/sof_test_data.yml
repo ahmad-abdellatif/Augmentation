@@ -1,0 +1,120 @@
+version: "2.0"
+nlu:
+- intent: PassingData
+  examples: |
+    - How to pass [ajax](Stan) object data to [python](PL) file
+    - Pass data to imported [Python](PL) program
+    - [Python](PL): Copy content from one word document to another word document and keeping format ?
+    - redirect [GET](API) data to another site with [PHP](PL)
+    - Use variables from other class from other file to another in [java](PL)
+- intent: FacingError
+  examples: |
+    - [PHP](PL) [mysqli](Fram) query returns empty error message
+    - Error in reading data in [aws data pipeline](Fram) activity from [s3 bucket](Fram)
+    - [Python NameError](API): name -- syntax error
+    - INSTALL_FAILED_OLDER_SDK - Error Message
+    - Failed to load [PDF](Stan) document
+- intent: LookingForBestPractice
+  examples: |
+    - Best practice for parameter naming in [Java](PL) constructors and simple setters
+    - What is the right [jQuery](Fram) (or [javaScript](PL)) code to pause a basic slider using a simple' [setTimeOut](API) ' funcitonality ?
+    - How can I simplify [C#](PL) code that sets multiple properties of an object ?
+    - what are the main differences between [jquery](Fram)'s official templating plugin and [ICanHaz.js](Fram) ?
+    - tab switch in [js](PL) , which is faster ?
+    - use of session and cookies what is better
+- intent: UsingMethodImproperly
+  examples: |
+    - [Messenger](API) to Remote Service Causing Memory Leak
+    - [WebSphere 8.5.5](Fram) not returning [JAR](Stan) signers
+    - Caching problem with a web view activity
+    - How can I prevent memory exhaustion using a [CakePHP](Fram) application ?
+    - [HTML](PL): [XML](Stan) data island won't link
+    - [JSColor](Fram) Not Working on Volusion Option Text Boxes
+    - [laravel](Fram) return view::make not working
+    - [izpack](Fram) installer not getting instantiated
+    - loading Model causes blank/white screen [CodeIgniter 2.0.3](Fram)
+    - Menu jumping down on resize, responsive design , certain browsers only
+    - [Jquery](Fram) - [Drop](API) event not occuring if size of '[draggable](API) div' is greater than '[droppable](API) div'
+    - [Jquery](Fram) - Read input from Text Field
+    - [ListView](API) is populated but displays no elements
+    - [HTML](PL) table [td](API)'s not properly alignt
+    - [jquery](Fram) case statement not working
+    - How to avoid repeatedly adding the checked value to the input text box
+    - Why doesn't the [.clone](API) copy my [div](API) ?
+    - [Jquery hover](API) not fast enough
+    - My [JavaScript](PL) loop is an infinite loop ?
+    - Issue parsing [JSON](Stan) object response to [C#](PL) object
+    - I cannot run Enmbedded [RavenDB](Fram)
+    - DB geography type [MakeValid](API) does not seem to be working
+    - I can not seem to stop my own service
+    - [Django](Fram) : Password check returning false in view when it should return true
+    - [WordPress](Fram) search page not working correctly
+    - [Appengine BulkLoader](Fram) problem using development server
+- intent: LookingForCodeSample
+  examples: |
+    - how to render child components in [react.js](Fram) recursively
+    - [PHP](PL) check if a radio button is clicked
+    - change url according to the selected # [href](API) with [jquery](Fram)
+    - [Highcharts](Fram) with Custom Background in Cross Platform app development
+    - [C#](PL) service as a daemon in [debian](Plat) with [mono-service](Fram)
+    - insert delete button of specific row from a database displayed in table
+    - How to connect [draggable](API) divs
+    - Execute While in [SQl](PL) Script in [Java](PL)
+    - check distinct values in [datarowview.row.itemarray](API) other than empty string
+    - binding local variables in [python](PL)
+    - How can I generate a random number without use of [Math.Random](API) ?
+    - Add [css](PL) class to parent [li](API) and sub [li](API)
+    - how do i force a user to go back twice on a mobile web page using [php](PL) or [javascript](PL) without the user clicking any link or button
+    - [D3](Fram) Update Multi line Chart
+    - How to add text formate editor for a TextBox in [HTML](PL)
+    - Change [HorizontalGridLinesBrush](API) only for selected Row
+    - Reference ( not copy ) a subrange of a one-dimensional array ?
+    - How to Change Default Path of File Open Dialog ?
+    - "Dangerous" [Android](Plat) permissions that don't need to be accepted by users
+    - [AutoCompleteTextView](API) with custom [ArrayAdapter](API) and Filter
+    - [REST](Stan) Authentication With [Spring](Fram) And [Spring](Fram) Security
+    - How to convert [xml](Stan) to [.json](Stan) file in [java](PL)
+    - Find First check number in [Quickbooks](Fram) using [QBFC](Fram)
+    - Recalculation of datetime in [Java](PL) Thread
+    - [HTML](PL) multi-level templating ([HTML](PL) and [JS](PL) only)
+    - sample to create a [html](PL) page with a language translator using [c#](PL)
+    - How can I get my submenus to disppear after a certain period ?
+    - [python](PL) regex:extract contents of an [HTML](PL) element
+    - Fit two normal distributions (histograms) with MCMC using [pymc](Fram) ?
+    - How to get [listview](API) selected id and a [href](API) text ?
+    - How to add a base url to generated elements ?
+    - adding cookie to [angular](Fram) $http requests ([post](API) and [get](API)) in an [iframe](API)
+    - Read pictures from webcam in [Java](PL) on [Ubuntu](Plat) ?
+    - Quicksort without the final merge [Python](PL)
+    - Change Row Color in [PHP](PL) data table by Date
+    - [PHP](PL) questions about inputs and checkboxes
+    - How do I perpetuate private field data from a Component object into an Entity object using [NHibernate](Fram) ?
+    - How do I detect 64-bit [Java](PL) from the command line ?
+    - How to access downloaded jars of [Java Web-Start](Fram) application
+    - How to use [gulp-traceur](Fram) and [gulp-webpack](Fram) ?
+    - How to tell if an element is before another element in [DOM](Stan)
+    - Programmatically generating [Excel](Fram) workbook with pivots and charts
+    - Auto complete based on value of two input textboxes
+    - Deleting a file from folder using [PHP](PL)
+    - How to create an [JS](PL) object from scratch using a [HTML](PL) button ?
+    - Storing string or integer data in [PHP](PL) class properties ?
+    - Converting repetative [javascript](PL) statements to arrays in loops
+    - [SKShapeNode](API) equivalent in [Cocos2D](Fram) / [SpriteBuilder](Fram)
+    - Want an iPhone/iPad/[iOS](Plat) Webpage that is 100% width / height
+    - Creating Multiple Forms By Combining Multiple Projects
+    - Batch insert using [JPA](Stan)/[Toplink](Stan)
+    - [C++](PL): various encodings getters like in [Python](PL)
+    - Is there a markdown-like system, which creates multiple output files ?
+    - store image into a folder in [netbeans](Fram)
+    - I need to get Facebook photo stream into my application using their Facebook id [javascript](PL)
+    - multiple mousehover with [jquery](Fram) ?
+    - [Magento](Fram): Is it safe to override event observer core class ?
+    - [PHP](PL), [MySQL](PL): Display only required parts of my website in sister website
+    - How do i fire the [google places autocomplete](Fram) with dictionary on in [android](Plat) [firefox](Fram) browser ?
+    - Limiting number of lines in [textarea](API)
+    - Insert image in [textarea](API) when button is pressed using [javascript](PL) or [jquery](Fram) ?
+    - How to check if [HTTP](Stan) requests are open in browser ?
+    - autosize node width for [d3](Fram) tree layout
+    - Slow down [Jquery](Fram) image slider after one cycle
+    - How to "append" new field/data into an object without creating a new class nor modifying the class ?
+    - how to play animation again and again without refreshing the page using [css3](PL)

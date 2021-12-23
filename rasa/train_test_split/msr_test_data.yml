@@ -1,0 +1,143 @@
+version: "2.0"
+nlu:
+- intent: BuggyCommitsByDate
+  examples: |
+    - what are the buggy commits that happened on Dec 19, 2017
+    - Determine the buggy commits that happened on Dec 19, 2017
+    - Determine the bug(s) introduced because of commit hash 0636928d961a6ceaab46d908f9372d913c3e5faf
+    - tell me buggy commits that happened on Dec 19, 2017
+    - List all the commits that introduced bugs on Dec 19, 2017
+    - Show buggy commits on 19-12-2018
+    - Determine the buggy commits that happened on July 2, 2018
+    - Determine the buggy commits that happened on July 2, 2018
+    - Determine the buggy commits that happened on July 2, 2018
+    - buggy commits that happened on July 2
+    - what are the buggy commits that happened on July 2, 2018?
+    - What are the buggy commits that happened on 2 July 2018?
+    - how many buggy commit exist on July 2,2018
+- intent: FixingCommitsForBugTicket
+  examples: |
+    - which commits fixed the issue KAFKA-7354?
+    - what are the commit(s) that fixed bug ticket KAFKA-7354
+    - Determine the commit(s) that fixed bug ticket KAFKA-7354
+    - what commits fixed bug KAFKA-7354
+    - Show all the commits that fixed KAFKA-7354
+    - Show fix of KAFKA-7354
+    - Determine the commit(s) that fixed bug ticket HHH-11965
+    - which commits fixed the ticket HHH-11965
+    - determine the commit(s) that fixed bug ticket HHH-11965
+    - What are the commits that fixed bug ticket HHH-11965?
+    - Which commit fix HHH-11965 bug?
+- intent: FixingCommitsIntroducedBugs
+  examples: |
+    - which fixing commits cause bugs on June 2018
+    - how many percentage of the fixing commits that introduced bugs on June 2018
+    - What is the percentage of the fixing commits that introduced bugs on June 2018
+    - percentage of fixing commits that also introduced bugs June 2018
+    - determine the percentage of the fixing commits that introduced bugs in June 2018
+    - what is the percentage of fixing commits that introduced bugs last June
+    - determine the percentage of the fixing commits that introduced bugs in June 2018
+- intent: GetCommitBodyByDatePeriod
+  examples: |
+    - Tell me about the commits between May 27th and May 31st in 2018.
+    - Tell me about the commits from 05-27 to 05-31 in 2018
+    - what are the commits I submit on 27/5/2018~31/5/2018
+    - what are the commits I submit on 27/5/2018-31/5/2018
+    - determine the commits information that happened between 27/5/2018 - 31/5/2018
+    - Can you show the commits information that happened between May 27 2018 to May 31st 2018?
+    - Please tell me the commits information that happened between 27/5/2018 - 31/5/2018
+    - determine the commits information that happened between 1/1/2017 to 31/1/2017
+    - what are the commits information that happened between 1/1/2017 to 31/1/2017
+    - determine the commits information that happened between 1/1/2017 to 31/1/2017
+    - commits information that happened between 1/1/2017 to 31/1/2017
+    - which commits were done from 1/1/2017 to 31/1/2017
+- intent: GetCommitsInfoAboutSpecificClass
+  examples: |
+    - Tell me the change history of NetworkClientUtils.java
+    - what are all changes that happened on NetworkClientUtils file
+    - It is important to know the number of commits made in a certain period of time, as well as the code changes. Please show the changes of NetworkClientUtils?
+    - please tell me all the changes on file NetworkClientUtils.java
+    - Show me all changes to NetworkClientUtils file
+    - Show changes to NetworkClientUtils
+    - Who last modified NetworkClientUtils
+    - Who modified KafkaAdminClient?
+    - what are the changes that happened on a JobBatch file
+    - all changes that happened on a JobBatch file.
+    - determine all changes that happened on a JobBatch file
+    - what were the changes on JobBatch
+- intent: GetDevelopersWhoHasExperianceToFixBug
+  examples: |
+    - Who fix most bugs in KafkaAdminClient.java?
+    - Determine the developers that had the most fixed bugs in KafkaAdminClient.java
+    - Who fixed the bugs in KafkaAdminClient.java
+    - Who fixed the largest amount of bugs in KafkaAdminClient.java?
+    - List the developers that fixed bugs in NetworkClientUtils.java
+    - List the top 10 developers that fixed most of the bugs in KafkaAdminClient.java file
+    - Who fixed the bugs in KafkaAdminClient?
+    - Who last fixed bugs in KafkaAdminClient?
+    - who are the devs most qualified for fixing bugs on file HibernateEntityManager.java
+    - who's should fix the bug in HibernateEntityManager
+    - Who the most experience developer in fixing bug for the component HibernateEntityManager.java?
+    - Who knows how to fix HibernateEntityManager file?
+    - Which developer is capable for fixing a HibernateEntityManager bug?
+    - Who is most likely to fix a HibernateEntityManager.java bug?
+- intent: GetNumberOfCommitByDate
+  examples: |
+    - how many commits in last month?
+    - How many commits I submit last month?
+    - determine the number of commits that happened in the last month
+    - determine the number of commits that happened in the last month
+    - How many commits do I have in the last month?
+    - determine the number of commits that happened in the past 30 days?
+    - How many commits do I have between 27/5/2018 - 31/5/2018
+    - How many commits do I have during the period between 27/5/2018 - 31/5/2018
+    - How many commits do you have between 27/5/2018 - 31/5/2018
+    - How many commits where made in the last month?
+    - How many commit were there last month?
+    - How many commits between 27-05-2018 and 31-05-2018
+    - number of commits last month
+    - determine the number of commits that happened in last month.
+    - how many commits in the last month
+    - number of commits in november 2017
+    - number of commits last month
+    - number of commits last year
+    - number of commits in january 2017
+    - number of commits between 1/1/2017 to 31/1/2017
+    - what are the number of commits that happened in last month
+- intent: IntroducedBugsByCommit
+  examples: |
+    - Tell me the bugs which were caused by commit 0636928d961a6ceaab46d908f9372d913c3e5faf?
+    - is it the bug(s) introduced because of commit hash 0636928d961a6ceaab46d908f9372d913c3e5faf
+    - Show me the bug that got introduced by the commit 0636928d961a6ceaab46d908f9372d913c3e5faf
+    - show bugs because of 0636928d961a6ceaab46d908f9372d913c3e5faf
+    - Determine the bug(s) introduced because of commit hash 00d7baedfab13b8436beaa2c95b24dd3d6af7f5e
+    - Determine the problems introduced in commit 00d7baedfab13b8436beaa2c95b24dd3d6af7f5e
+    - Determine the bug introduced because of commit hash 00d7baedfab13b8436beaa2c95b24dd3d6af7f5e
+    - Determine the bug(s) introduced because of commit hash 00d7baedfab13b8436beaa2c95b24dd3d6af7f5e
+    - Do this commit 00d7baedfab13b8436beaa2c95b24dd3d6af7f5e introduce a bug?
+- intent: MostDeveloperHasOpenedBugs
+  examples: |
+    - Who has the most unfixed bugs?
+    - who had the most unfixed bugs
+    - Can you show the developers information that had the most unfixed bugs?
+    - Determine the developers that had the most unfixed bugs
+    - Who has the most unfixed bugs?
+    - List the developers with the higher number of bugs not yet fixed
+    - developers that had the most unfixed bugs.
+    - determine the developers that had the most unfixed bugs
+    - who has bugs to fix
+- intent: MostFileContainsBugs
+  examples: |
+    - Which file has most bugs?
+    - what are the most files that introduce bugs?
+    - Determine the most files that introduce bugs
+    - which file introduces bugs?
+    - List the top 10 files that introduced a bug
+    - Which files have the most bugs?
+    - Which files are the most buggy?
+    - determine the most files that introduce bugs
+    - determine the most files that induce bugs
+    - determine the files that introduce the most bugs
+    - Show me the files that introduce the most bugs
+    - What are the files that introduce the most bugs?
+    - Which file has the largest number of bugs?

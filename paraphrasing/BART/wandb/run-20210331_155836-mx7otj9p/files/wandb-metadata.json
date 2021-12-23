@@ -1,0 +1,22 @@
+{
+    "os": "Darwin-20.3.0-x86_64-i386-64bit",
+    "python": "3.6.8",
+    "heartbeatAt": "2021-03-31T19:58:42.374271",
+    "startedAt": "2021-03-31T19:58:36.790137",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/ahmadabdellatif/Documents/GitHub/TrainingDataAugmentation/scripts/paraphrasing/BART/deleteme.py",
+    "codePath": "scripts/paraphrasing/BART/deleteme.py",
+    "git": {
+        "remote": "https://github.com/ahmad-abdellatif/TrainingDataAugmentation.git",
+        "commit": "96ba2f39b4cac4c7335b041bb9db8a95116f6a4d"
+    },
+    "email": "ak450i@hotmail.com",
+    "root": "/Users/ahmadabdellatif/Documents/GitHub/TrainingDataAugmentation",
+    "host": "Ahmads-MacBook-Pro.local",
+    "username": "ahmadabdellatif",
+    "executable": "/Users/ahmadabdellatif/.virtualenvs/venv/TrainingDataAugmentation/bin/python"
+}

@@ -1,0 +1,15 @@
+version: "2.0"
+
+intents:
+  - PassingData
+  - FacingError
+  - LookingForBestPractice
+  - UsingMethodImproperly
+  - LookingForCodeSample
+
+entities:
+  - Stan
+  - Fram
+  - API
+  - Plat
+  - PL

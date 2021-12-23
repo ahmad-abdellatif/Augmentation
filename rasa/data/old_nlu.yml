@@ -1,0 +1,440 @@
+version: "2.0"
+nlu:
+- regex: filename
+  examples: |
+    - [^\\ ]*\.(\w+)
+- regex: issue_number
+  examples: |
+    - #?[0-9]+
+- regex: commit_hash
+  examples: |
+    - [0-9a-f]{7,40}
+- intent: GetNumberOfCommitByDate
+  examples: |
+    - Show me the number of commits between [last week](time)
+    - Fetch me the number of changes between [27/05/2018](time)
+    - What is the number of commits between [last week](time)
+    - What is the amount of commits between [last week](time)
+    - How many commits between [last week](time)
+    - Show me the number of commits in [last month](time)
+    - Fetch me the number of commits in [23 June 2018]](time) to [14 August 2018](time)
+    - List me the number of commits in [27/05/2018](time)
+    - List me the number of changes in [last month](time)
+    - Give me the number of commits in [27/05/2018](time)
+    - Give me the number of changes in [23 May 2018](time)
+- intent: GetCommitBodyByDatePeriod
+  examples: |
+    - Show me the commit body between [27/05/2018](time)
+    - List the full commit information between [last week](time)
+    - Fetch the commits that happened between [23 June 2018](time) to [14 August 2018](time)
+    - List me the commits of [23 May 2018](time)
+    - Give me the changes of [23 May 2018](time)
+    - Fetch me the changes of [last week](time)
+    - List me the changes of [last month](time)
+    - List me the changes between [23 April 2018](time) - [14 Sept 2018](time)
+- intent: GetClassAuthorName
+  examples: |
+    - What is the biggest file in the repository
+    - Who is responsible for creating [MockAdminClient.java](filename)
+    - Who created [SenderTest](filename)
+    - Who is the author of [AbstractStream.java](filename)
+    - Who made [OrderedBytes file](filename)
+- intent: GetDevelopersWhoMadeClassChanges
+  examples: |
+    - Who touched [StampedRecord](filename)
+    - Who contributed to [RecordVersion.java](filename)
+    - Who collaborated to [OAuthBearerUnsecuredValidatorCallbackHandler.java](filename)
+    - Who committed in [KTableKTableJoinMerger](filename)
+    - Who committed to [StateConsumerTest file](filename)
+    - Who added to [DefaultRecordsSend.java](filename)
+    - Who modified [SuppressScenarioTest file](filename)
+    - Who edited [OAuthBearerValidationUtilsTest.java](filename)
+    - Who pushed to [ToleranceType.java](filename)
+- intent: GetLatestCommitInfoOfSpecificClass
+  examples: |
+    - Give me the Latest commits to [TopologyWrapper](filename)
+    - Show me the last commits to [ResourceType.java](filename)
+    - Show me the recent history of [ClientQuotaEntity](filename)
+    - Fetch the last commits of [NoOpRecordCollector.java](filename)
+    - List the recent history of [StreamTask file](filename)
+- intent: GetCommitsInfoAboutSpecificClass
+  examples: |
+    - Show me the commits of [KTableImplTest.java](filename)
+    - Show me the changes of [CreateAclsRequestTest file](filename)
+    - List me the changes of [OAuthBearerConfigException file](filename)
+    - Give me the changes of [ConnectRestConfigurable file](filename)
+    - List me the commits of [ConsumerRecords](filename)
+    - Give me the commits of [SampleTaskWorker.java](filename)
+    - Fetch me the changes of [JsonSerializationTest.java](filename)
+    - Fetch me the commits of [KTableFilterTest.java](filename)
+    - Show me [SslTransportLayerTest.java](filename) history
+    - Show me [ClusterConfigState file](filename) full history
+- intent: MostOccuranceBug
+  examples: |
+    - Show me the most common bug
+    - Show me the most common defect
+    - Show me the most common issue
+    - Show me the most occurrent defect
+    - Show me the most occurrent bug
+    - Show me the most occurrent issue
+    - Show me the most popular defect
+    - Show me the most popular issue
+    - Show me the most popular bug
+    - Show me the most recurrent bug
+    - Show me the most concurrent bug
+    - Show me the most recurrent bug
+    - Show me the most trending bug
+    - Show me the most problematic bug
+    - Show me the worst bug
+    - Show me the ugliest bug
+    - Fetch me the most common bug
+    - List me the most popular bug
+    - Give me the most trending
+    - Which is the most common bug?
+    - What is the most popular bug?
+    - Which is the most popular bug?
+    - Which is the most trending defect?
+    - What is the most concurrent defect?
+    - Which on is the most problematic issue?
+- intent: BugsCountsPerStatus
+  examples: |
+    - Show me the bugs status
+    - Show me the bugs summary
+    - Show me the bugs report
+    - Show me the bugs analysis
+    - Fetch me the bugs status
+    - List me the bugs summary
+    - Give me the bugs report
+    - Show me the defects summary
+    - Fetch me the defects report
+    - List me the defects report
+    - Give me the defects summary
+    - Show me the issues summary
+    - Fetch me the issues report
+    - List me the issues analysis
+    - Give me the issues status
+    - What is the bugs report?
+    - What is the defects analysis?
+    - What is the issues summary?
+- intent: MostDeveloperHasOpenedBugs
+  examples: |
+    - Which developers have the most bug assignments?
+    - Who has the most bug assignments?
+    - Which developers have more bugs to fix?
+    - Who has the most bugs to fix?
+    - Which developers have more bugs to address?
+    - Who has the most bugs to address?
+    - Which developers have more bugs to resolve?
+    - Who has the most bugs to resolve?
+    - Which developers have more assignments?
+    - Which developers have more bug assignments?
+    - Which developers have more bugs assigned?
+    - Which developers have more bugs assigned to them?
+    - Who has the most assignments?
+    - Who has the most bug assignments?
+    - Who are the busiest resolving bugs?
+- intent: MostFileContainsBugs
+  examples: |
+    - Which files introduce more bugs?
+    - Which files added more bugs?
+    - What classes introduce more bugs?
+    - Which files introduced more bug?
+    - What files introduced more bugs?
+    - Which files have introduced more bugs?
+    - What classes have introduced more bugs?
+    - Which files introduce the most bugs?
+    - What files introduce the most bugs?
+    - Which files introduced the most bug?
+    - What files introduced the most bugs?
+    - give me files that have introduced more bugs
+    - give me files that introduced more bugs
+    - give me files that introduced the most of bug
+    - give me files that generated the most of bugs
+    - give me files that added the most of bugs
+    - show me the files which have introduced more bugs
+    - show me the files which introduced more bugs
+    - show me the classes which introduced the most of bug
+    - show me the files which had generated most of the bugs
+    - show me the files which had added most of the bugs
+    - Which files are the most bug-introducing
+    - what files are the most bug-introducing
+    - show me the files which are the most bug-introducing
+    - give me the files which are the most bug-introducing
+    - Which classes are the top bug-introducing
+    - what files are the top bug-introducing
+    - show me the files which are the top bug-introducing
+    - give me the files which are the top bug-introducing
+    - Which files are the ones that Introduce More bugs
+    - what files are the ones that have introduced most bugs
+    - show me the files which are the ones that have been introducing the most bugs
+    - give me the files which are the ones that had introduced the most of bugs
+    - Which files are the ones that were introducing most of the bugs
+    - what files are the ones that added most of bugs
+    - show me the files which are the ones have added bugs the most
+    - give me the files which are the ones that have been introducing most of the bugs
+- intent: BuggyCommitsByDate
+  examples: |
+    - What are the bug introducing Commits that happened [23 June 2018](time) to [14 August 2018](time)
+    - which are the Buggy Commits that occurred [last month](time)
+    - What are the bug introducing change done [last month](time)
+    - which are the Buggy changes applied [last month](time)
+    - What are the bug introducing Commit that occurred [23 June 2018](time) to [14 August 2018](time)
+    - which are the Buggy Commits that done [27/05/2018](time)
+    - What are the bug introducing changes applied [last week](time)
+    - which are the Buggy changes happened [27/05/2018](time)
+    - show me a list of the defective changes pushed [23 June 2018](time) to [14 August 2018](time)
+    - What are the bug introducing changes pushed [23 May 2018](time)
+    - which are the defective Commits that occurred [last week](time)
+    - What are the defect introducing change done [23 June 2018](time) to [14 August 2018](time)
+    - which are the defective changes applied [last week](time)
+    - What are the defect inducing changes done [last month](time)
+    - show me a list of the Buggy Commit [23 June 2018](time) to [14 August 2018](time)
+    - fetch me the bug introducing change [23 April 2018](time) - [14 Sept 2018](time)
+    - fetch me a list of the Buggy Commits [last week](time)
+    - highlight the defective Commits changes [23 May 2018](time)
+    - highlight a list of the defect inducing [23 April 2018](time) - [14 Sept 2018](time)
+    - print the defect inducing Commits [23 April 2018](time) - [14 Sept 2018](time)
+    - print me a list of the defective changes [23 May 2018](time)
+    - In the [23 May 2018](time) which was the bug introducing changes which happened
+    - In the [23 June 2018](time) to [14 August 2018](time) what is the bug introducing commits which happened
+    - In the [last month](time) which bug introducing commits that happened
+    - In the [27/05/2018](time) what bug introducing commits which occurred
+    - In the [last week](time) which was the bug introducing commits that were done
+    - In the [27/05/2018](time) what were the bug introducing changes which happened
+    - In the [last month](time) what was the bug introducing commit which happened
+    - In the [last week](time) what were the bug introducing commits that happened
+    - In the [23 June 2018](time) to [14 August 2018](time) what was the bug introducing commit which occurred
+    - In the [23 April 2018](time) - [14 Sept 2018](time) what was the bug introducing commit that were done
+    - In the [23 June 2018](time) to [14 August 2018](time) what were the bug introducing commits which were applied
+    - In the [23 May 2018](time) what was the bug introducing commit that were pushed
+    - In the [23 June 2018](time) to [14 August 2018](time) which were the bug introducing changes which happened
+    - In the [last month](time) what are the bug introducing commits which happened
+    - In the [last month](time) which bug introducing commits that happened
+    - In the [27/05/2018](time) what bug introducing commits which occurred
+    - In the [23 April 2018](time) - [14 Sept 2018](time) which was the bug introducing commits that were done
+    - In the [last month](time) what were the bug introducing changes which happened
+    - In the [27/05/2018](time) what was the bug introducing commit which happened
+    - In the [last week](time) what was the bug introducing commit that happened
+    - In the [23 June 2018](time) to [14 August 2018](time) what were the bug introducing commits which occurred
+    - In the [23 May 2018](time) what was the bug introducing commits that were done
+    - In the [23 June 2018](time) to [14 August 2018](time) what was the bug introducing commit which were applied
+    - In the [23 May 2018](time) what were the bug introducing commits that were pushed
+    - In the [23 April 2018](time) - [14 Sept 2018](time) show me the buggy commits that occurred
+    - In the [last week](time) show me the buggy changes that occurred
+    - In the [23 June 2018](time) to [14 August 2018](time) give me the bug introducing Commits which happened
+    - In the [last week](time) list the defective changes occurred
+    - In the [last week](time) fetch me the defect introducing changes which were done
+    - In the [last week](time) highlight the bug introducing Commits were that applied
+    - In the [23 April 2018](time) - [14 Sept 2018](time) print the defect inducing changes were that pushed
+    - In the [23 June 2018](time) to [14 August 2018](time) show me the buggy commits which occurred
+    - In the [23 April 2018](time) - [14 Sept 2018](time) show me the buggy changes that occurred
+    - In the [last month](time) give me the bug introducing Commits which happened
+    - In the [last month](time) list the defective changes that occurred
+    - In the [23 May 2018](time) fetch me the defect introducing changes which were done
+    - In the [23 June 2018](time) to [14 August 2018](time) highlight the bug introducing changes that were applied
+    - In the [23 May 2018](time) print the defect inducing changes which were pushed
+    - In the [23 June 2018](time) to [14 August 2018](time) show me the buggy changes which happened
+    - In the [last month](time) show me the buggy changes which were applied
+    - In the [23 May 2018](time) give me the bug introducing Commits which pushed
+    - In the [23 April 2018](time) - [14 Sept 2018](time) list the defective Commits that were done
+    - In the [23 May 2018](time) fetch me the defect introducing Commits that were done
+    - In the [23 April 2018](time) - [14 Sept 2018](time) highlight the bug introducing Commits which happened
+    - In the [23 June 2018](time) to [14 August 2018](time) print the defect inducing Commits which were pushed
+    - In the which was the bug introducing changes which happened [23 June 2018](time) to [14 August 2018](time)
+    - In the what is the bug introducing commits which happened [last month](time)
+    - In the which bug introducing commits that happened [27/05/2018](time)
+    - In the what bug introducing commits which occurred [23 June 2018](time) to [14 August 2018](time)
+    - In the which was the bug introducing commits that were done [23 April 2018](time) - [14 Sept 2018](time)
+    - In the what were the bug introducing changes which happened [23 May 2018](time)
+    - In the what was the bug introducing commit which happened [23 May 2018](time)
+    - In the what were the bug introducing commits that happened [23 May 2018](time)
+    - In the what was the bug introducing commit which occurred [27/05/2018](time)
+    - In the what was the bug introducing commit that were done [23 May 2018](time)
+    - In the what were the bug introducing commits which were applied [23 June 2018](time) to [14 August 2018](time)
+    - In the what was the bug introducing commit that were pushed [last week](time)
+    - In the which were the bug introducing changes which happened [last week](time)
+    - In the what are the bug introducing commits which happened [23 May 2018](time)
+    - In the which bug introducing commits that happened [last week](time)
+    - In the what bug introducing commits which occurred [23 April 2018](time) - [14 Sept 2018](time)
+    - In the which was the bug introducing commits that were done [23 May 2018](time)
+    - In the what were the bug introducing changes which happened [27/05/2018](time)
+    - In the what was the bug introducing commit which happened [last month](time)
+    - In the what was the bug introducing commit that happened [27/05/2018](time)
+    - In the what were the bug introducing commits which occurred [last week](time)
+    - In the what was the bug introducing commits that were done [23 May 2018](time)
+    - In the what was the bug introducing commit which were applied [last week](time)
+    - In the what were the bug introducing commits that were pushed [last week](time)
+    - In the show me the buggy commits that occurred [last month](time)
+    - In the show me the buggy changes that occurred [23 May 2018](time)
+    - In the give me the bug introducing Commits which happened [27/05/2018](time)
+    - In the list the defective changes occurred [23 June 2018](time) to [14 August 2018](time)
+    - In the fetch me the defect introducing changes which were done [last week](time)
+    - In the highlight the bug introducing Commits were that applied [last month](time)
+    - In the print the defect inducing changes were that pushed [23 May 2018](time)
+    - In the show me the buggy commits which occurred [23 June 2018](time) to [14 August 2018](time)
+    - In the show me the buggy changes that occurred [23 April 2018](time) - [14 Sept 2018](time)
+    - In the give me the bug introducing Commits which happened [23 June 2018](time) to [14 August 2018](time)
+    - In the list the defective changes that occurred [last week](time)
+    - In the fetch me the defect introducing changes which were done [23 April 2018](time) - [14 Sept 2018](time)
+    - In the highlight the bug introducing changes that were applied [23 June 2018](time) to [14 August 2018](time)
+    - In the print the defect inducing changes which were pushed [27/05/2018](time)
+    - In the show me the buggy changes which happened [23 June 2018](time) to [14 August 2018](time)
+    - In the show me the buggy changes which were applied [23 May 2018](time)
+    - In the give me the bug introducing Commits which pushed [last month](time)
+    - In the list the defective Commits that were done [27/05/2018](time)
+    - In the fetch me the defect introducing Commits that were done [27/05/2018](time)
+    - In the highlight the bug introducing Commits which happened [23 May 2018](time)
+    - In the print the defect inducing Commits which were pushed [last week](time)
+- intent: FixingCommitsIntroducedBugs
+  examples: |
+    - What is the share of bug fixing commits that introduced in the [23 April 2018](time) - [14 Sept 2018](time)
+    - Which is the percentage amount of defect fixing changes which has introduced in the [23 April 2018](time) - [14 Sept 2018](time)
+    - What is the portion of issue removing commits that added [23 April 2018](time) - [14 Sept 2018](time)
+    - Which is the percentage of problem removing changes which has added [23 June 2018](time) to [14 August 2018](time)
+    - What is the percentage amount of bug resolving commits that generated [23 June 2018](time) to [14 August 2018](time)
+    - Which is the percentage share of defect resolving changes which has generated [last month](time)
+    - What is the percentage of issue resolving changes that had generated in the [last month](time)
+    - Which is the share of problem resolving commits which induced in the [last week](time)
+    - What is the percentage share of bug removing changes that has induced in the [27/05/2018](time)
+    - Which is the amount of defect removing commits which introduced [23 April 2018](time) - [14 Sept 2018](time)
+    - What is the percentage amount of issue fixing changes that have introduced [23 May 2018](time)
+    - Which is the portion of problem fixing commits which added [23 May 2018](time)
+    - What is the percentage of bug fixing changes that has added in the [23 May 2018](time)
+    - Which is the share of defect removing commits which generated in the [23 June 2018](time) to [14 August 2018](time)
+    - What is the percentage share of issue fixing commits that has generated in the [23 June 2018](time) to [14 August 2018](time)
+    - Which is the amount of problem resolving changes which had generated [23 April 2018](time) - [14 Sept 2018](time)
+    - What is the percentage amount of bug resolving changes that induced [last week](time)
+    - Which is the portion of defect fixing changes which has induced in the [last month](time)
+    - In the [27/05/2018](time) what is the percentage of bugs fixing commits that were introduced issues
+    - In the [last week](time) which is the share of defects fixing changes which were added induced bugs
+    - In the [last week](time) what is the percentage share of  removing commits that were generated issues
+    - In the [23 April 2018](time) - [14 Sept 2018](time) which is the amount of problems removing changes which were added bugs
+    - In the [23 April 2018](time) - [14 Sept 2018](time) what is the percentage amount of bugs resolving commits which were introduced problems
+    - In the [last week](time) which is the portion of defects resolving changes which were generated problems
+    - In the [last week](time) what is the percentage of issues fixing commits that were induced defects
+    - In the [27/05/2018](time) which is the share of problems fixing changes which were introduced added defects
+    - In the [27/05/2018](time) what is the percentage share of defects removing commits that were bugs
+    - In the [last month](time) which is the amount of bugs removing changes which were induced defects
+    - In the [23 April 2018](time) - [14 Sept 2018](time) which is the share of issues resolving commits which were added defects
+    - In the [last week](time) what is the percentage share of problems resolving changes that were induced problems
+    - In the [27/05/2018](time) which is the amount of  defects fixing changes that were generated issues
+    - In the [23 May 2018](time) how many fixes did break something else?
+    - In the what is the percentage of bugs fixing commits that were introduced issues [23 April 2018](time) - [14 Sept 2018](time)
+    - In the which is the share of defects fixing changes which were added induced bugs [23 April 2018](time) - [14 Sept 2018](time)
+    - In the what is the percentage share of  removing commits that were generated issues [last month](time)
+    - In the which is the amount of problems removing changes which were added bugs [23 May 2018](time)
+    - In the what is the percentage amount of bugs resolving commits which were introduced problems [last week](time)
+    - In the which is the portion of defects resolving changes which were generated problems [last week](time)
+    - In the what is the percentage of issues fixing commits that were induced defects [last week](time)
+    - In the which is the share of problems fixing changes which were introduced added defects [23 June 2018](time) to [14 August 2018](time)
+    - In the what is the percentage share of defects removing commits that were bugs [last week](time)
+    - In the which is the amount of bugs removing changes which were induced defects [last week](time)
+    - In the which is the share of issues resolving commits which were added defects [last month](time)
+    - In the what is the percentage share of problems resolving changes that were induced problems [27/05/2018](time)
+    - In the which is the amount of  defects fixing changes that were generated issues [23 April 2018](time) - [14 Sept 2018](time)
+    - In the how many fixes did break something else? [23 June 2018](time) to [14 August 2018](time)
+- intent: GetDevelopersWhoHasExperianceToFixBug
+  examples: |
+    - Which developer fixed more bugs in [TopicPartitionTest file](filename)
+    - Who fixed more bugs related to [ConnectRestConfigurable.java](filename)
+    - Developer who fixed more bugs in [StateConsumerTest.java](filename)
+    - Who is the top bug fixer in [FlattenTest.java](filename)
+    - Who is the best bug fixer related with [ScramSaslClientProvider file](filename)
+    - Who is the top bug fixing developer in relation to [SetSchemaMetadata.java](filename)
+    - Who is the best bug fixing developer related to [StateRestorer.java](filename)
+    - Which developer is the top bug fixer related to [KStreamSessionWindowAggregate file](filename)
+    - Which developer is the best bug fixer for [Materialized](filename)
+    - Top bug fixer for [WindowStore file](filename)
+    - Best bug fixer related to [WindowedSerdes](filename)
+    - Top bug fixing developer related with [WorkerState.java](filename)
+    - Who is the developer with more bug fixes related to [GlobalStateManagerStub](filename)
+    - Who is the developer fixing more bugs in relation with [RestoringTasks.java](filename)
+    - Top developer fixing bugs in relation with [SslPrincipalMapper.java](filename)
+- intent: FixingCommitsForBugTicket
+  examples: |
+    - Which commits fixed the ticket [KAFKA 2705](issue_number)
+    - Which changes fixed the ticket [KAFKA2137](issue_number)
+    - Which commits addressed ticket [KAFKA2003](issue_number)
+    - Which commits fixed [KAFKA 2727](issue_number)
+    - What commits fixed the ticket [KAFKA2754](issue_number)
+    - What commits fixed ticket [KAFKA 1443](issue_number)
+    - What commits solved [KAFKA-2663](issue_number)
+    - Which commits addressed the ticket [KAFKA 1548](issue_number)
+    - What commits resolved the bug ticket [KAFKA 1521](issue_number)
+    - Which commits removed the issue [KAFKA1103](issue_number)
+    - What commits solved the bug ticket [KAFKA 2608](issue_number)
+    - Show me the commits that fixed the bug ticket [KAFKA1202](issue_number)
+    - Give me the commits solved the bug ticket [KAFKA1154](issue_number)
+    - Give me the changes solved the bug ticket [KAFKA 1464](issue_number)
+    - List the commits that fixed the bug [KAFKA-1988](issue_number)
+    - Print the commits that addressed the defect ticket [KAFKA-2019](issue_number)
+    - Fetch me a list of commits that removed the problem [KAFKA-1922](issue_number)
+    - Print me a list of commits that fixed the issue [KAFKA 1189](issue_number)
+    - Highlight the commits that solved the bug ticket [KAFKA2274](issue_number)
+    - Give me the commits removed the problem [KAFKA2675](issue_number)
+    - List the commits that resolved the defect ticket [KAFKA-2707](issue_number)
+    - List the changes that resolved the defect ticket [KAFKA 1482](issue_number)
+    - Print the commits that fixed the ticket [KAFKA 1928](issue_number)
+    - Fetch me a list of commits that addressed [KAFKA-2463](issue_number)
+    - Print me a list of commits that solved [KAFKA101](issue_number)
+    - Highlight the commits that resolved [KAFKA2768](issue_number)
+    - Highlight the changes that resolved [KAFKA-1859](issue_number)
+    - Give me the commits resolved the ticket [KAFKA-2526](issue_number)
+    - List the commits that removed [KAFKA 2654](issue_number)
+    - Print the commits that fixed [KAFKA-1764](issue_number)
+    - Fetch me a list of commits that addressed the issue [KAFKA-1110](issue_number)
+- intent: IntroducedBugsByCommit
+  examples: |
+    - What is the biggest file in the repository
+    - What is the bug Introduced by [286411cbb19ad267516c73e0a5a8a22e8341b9ad](commit_hash)
+    - What were the defects added because of change [135488352cbe646334a274418d7014a91e92057f](commit_hash)
+    - Which are the issues created due to commit [22612be46dd68255642ca50a1f78fa1790eb4759](commit_hash)
+    - Which were the problem that were introduced by [345db596502de59a3119d2f86186143395b74e5b](commit_hash)
+    - List me the defects that were added because of commit [4b4102884c8d317fe362523a9f5af20a27a4ee52](commit_hash)
+    - Show me a list of the bugs that were induced due to change [57df460f8d7b225509dd8c061a5b6efa65c8ac9c](commit_hash)
+    - Give me a list of the issues that were created by change [2e25f899a118e7d4d5eb89118e447a87ad02f71c](commit_hash)
+    - Fetch me a list of the problem generated because of change [457744a820d806e546edebbd8ffd33f6772e519f](commit_hash)
+    - print me a list of the problems that were generated due to commit [2e662a061608a0755274da3e2ccf87401936febf](commit_hash)
+    - highlight a list of the problems Introduced by [3af13967db089b9a8320b539f5d5d218488ce467](commit_hash)
+    - give me the bug added because of change [0b05d3b939c5ed37a4253e7c3614d824e76ed664](commit_hash)
+    - fetch me the issues induced due to [08fe24b46a327424e3249eeef1a32e05db717b18](commit_hash)
+    - fetch the bugs created by change [02e103b75aa6161c27358e83ab2828515c876701](commit_hash)
+    - list the defects that were introduced because of change [239dad1b9fb6803842067dd588f679ba6ae5efe7](commit_hash)
+    - show me the bugs that were added due to commit [131f96868aa24f38f69ee2ab769ea3f289e5c1fc](commit_hash)
+    - print the issues that were induced by commit [131f96868aa24f38f69ee2ab769ea3f289e5c1fc](commit_hash)
+    - highlight the defect that were created because of [3d3c544d6f87ddff58fc01be00410321ef0d497d](commit_hash)
+    - What are the issues generated due to commit [0f60617fab5fc6805f522d0b9a213a7f600fab12](commit_hash)
+    - What were the bug that was generated because of commit [1cb39f7570b8dad3e8b5c7643fb1cbbcf382bb31](commit_hash)
+    - Which are the problems Introduced by [20d9adb173a0cde010a2502da7415ecda9bcaa80](commit_hash)
+    - Which were the issues added due to change [40759595e2e4d3751da8787c62ffd659cde257aa](commit_hash)
+    - List me the bugs induced by change [554e0b529884e0dd6b4968a0fc58b02f58e95a07](commit_hash)
+    - Show me a list of the issues created because of [4a6bbd5f1386562262193b5054b44894a196997b](commit_hash)
+    - Give me a list of the problem that was introduced due to commit [150967994a69b2e26f5f68efb2a54a8522ae641d](commit_hash)
+    - Fetch me a list of the bugs that were added by change [015e224b3d3c8e7bc412686ff22d5e99324b1019](commit_hash)
+    - print me a list of the defects that were induced because of commit [1e0ed7a592cd80cfca727b27ba01f6faa511531f](commit_hash)
+    - highlight a list of the bugs that were created due to [47b7a686e9636a68226efeca221073f76d887f36](commit_hash)
+    - give me the issues generated by [2db7eb7a8c28f4f5d2550b45a9215948652f82ca](commit_hash)
+    - fetch me the problems that were generated because of change [5174df53778cb5cb2d6d86e4cec9f3185a2c85db](commit_hash)
+    - fetch the issues introduced due to [34e9cc5dfae1f0a7b2cab51cb2939d48ba048964](commit_hash)
+    - list the problems that were added by change [5704d8f05f0d271b62d0170ba5a8fbfceacb4304](commit_hash)
+    - show me the defects that were induced because of commit [423d9d5af9481b782c7655dc2410e61e1b48a0bb](commit_hash)
+    - print the problems that were created due to change [13803ae91cc2d25ef42b71f3737e6c2ee7eb8809](commit_hash)
+    - highlight the bug generated by change [4b9de871df1b2574a7e5d1159b45ae9e4ba31955](commit_hash)
+    - What are the defects that were generated because of [2f6240ac944f2a55ece50a179b79f4e2ee63a621](commit_hash)
+    - What were the issues Introduced due to commit [41e676d29587042994a72baa5000a8861a075c8c](commit_hash)
+    - Which are the bugs added by [0699ff2ce60abb466cab5315977a224f1a70a4da](commit_hash)
+    - Which were the problems induced because of change [4013767d864a23c1a3eeb91806375525eb706649](commit_hash)
+    - List me the issue created due to [51421fcc0111031bb77f779a6f6c00520d526a34](commit_hash)
+    - Show me a list of the defects that were introduced by [3d7e88456f14fbac66309973f1334cb32c10e3ea](commit_hash)
+    - Give me a list of the bugs that were created because of commit [48cc2dc0ead0df1501abf16f583b3e365488e2d0](commit_hash)
+    - Fetch me a list of the problems generated due to commit [20afdcdd2ec129e94cbf335555c3d78f19a2d58e](commit_hash)
+    - print me a list of the issues that were generated by [26c50fac47802e4aa03793c60cb8316995bb37f1](commit_hash)
+    - highlight a list of the problem were added because of commit [36cab7dbdff6981d0df4b355dadee3fac35508a6](commit_hash)
+    - give me the defect that was created due to change [0153d4bb597283f48ae07af7cda3c633a71e436b](commit_hash)
+    - fetch me the bug generated by [12ce4b1e1e0e6ec7fd3585baf3ed531ecc16a5d9](commit_hash)
+    - fetch the problems Introduced because of commit [457744a820d806e546edebbd8ffd33f6772e519f](commit_hash)
+    - list the issues added due to [3cfa6da6f1141c7dc70459aa0a73c75340a65cef](commit_hash)
+    - show me the defect induced by change [54ba2280f0c42b0bd3d74c197f97d8a12617a847](commit_hash)
+    - print the bug that was created because of commit [2ce3285297a8cf20d801c7ac479603dd5926851c](commit_hash)
+    - highlight the problem created due to [0785feeb0fae2a4f75a59147197c5138109b1b39](commit_hash)
+    - list the bug that was induced by commit [4fd60c6120dc4330deb7317360c835b04bc6cb9a](commit_hash)

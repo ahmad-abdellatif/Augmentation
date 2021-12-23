@@ -1,0 +1,107 @@
+{
+  "BuggyCommitsByDate": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 11,
+    "confused_with": {
+      "GetCommitBodyByDatePeriod": 10,
+      "IntroducedBugsByCommit": 1
+    }
+  },
+  "GetCommitBodyByDatePeriod": {
+    "precision": 0.3235294117647059,
+    "recall": 1.0,
+    "f1-score": 0.48888888888888893,
+    "support": 11,
+    "confused_with": {}
+  },
+  "MostFileContainsBugs": {
+    "precision": 0.7857142857142857,
+    "recall": 0.8461538461538461,
+    "f1-score": 0.8148148148148148,
+    "support": 13,
+    "confused_with": {
+      "MostDeveloperHasOpenedBugs": 2
+    }
+  },
+  "GetDevelopersWhoHasExperianceToFixBug": {
+    "precision": 1.0,
+    "recall": 0.07142857142857142,
+    "f1-score": 0.13333333333333333,
+    "support": 14,
+    "confused_with": {
+      "MostDeveloperHasOpenedBugs": 6,
+      "GetCommitsInfoAboutSpecificClass": 3,
+      "FixingCommitsIntroducedBugs": 2
+    }
+  },
+  "GetNumberOfCommitByDate": {
+    "precision": 0.5,
+    "recall": 0.05263157894736842,
+    "f1-score": 0.09523809523809525,
+    "support": 19,
+    "confused_with": {
+      "GetCommitBodyByDatePeriod": 12,
+      "FixingCommitsIntroducedBugs": 4,
+      "MostDeveloperHasOpenedBugs": 2
+    }
+  },
+  "IntroducedBugsByCommit": {
+    "precision": 0.8888888888888888,
+    "recall": 1.0,
+    "f1-score": 0.9411764705882353,
+    "support": 8,
+    "confused_with": {}
+  },
+  "GetCommitsInfoAboutSpecificClass": {
+    "precision": 0.7857142857142857,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.8461538461538461,
+    "support": 12,
+    "confused_with": {
+      "GetNumberOfCommitByDate": 1
+    }
+  },
+  "MostDeveloperHasOpenedBugs": {
+    "precision": 0.3,
+    "recall": 0.75,
+    "f1-score": 0.4285714285714285,
+    "support": 8,
+    "confused_with": {
+      "MostFileContainsBugs": 2
+    }
+  },
+  "FixingCommitsIntroducedBugs": {
+    "precision": 0.45454545454545453,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.5882352941176471,
+    "support": 6,
+    "confused_with": {
+      "MostDeveloperHasOpenedBugs": 1
+    }
+  },
+  "FixingCommitsForBugTicket": {
+    "precision": 0.875,
+    "recall": 0.6363636363636364,
+    "f1-score": 0.7368421052631579,
+    "support": 11,
+    "confused_with": {
+      "MostDeveloperHasOpenedBugs": 3,
+      "GetCommitBodyByDatePeriod": 1
+    }
+  },
+  "accuracy": 0.5398230088495575,
+  "macro avg": {
+    "precision": 0.591339232662762,
+    "recall": 0.6106577632893422,
+    "f1-score": 0.5073254276969447,
+    "support": 113
+  },
+  "weighted avg": {
+    "precision": 0.6067704823951571,
+    "recall": 0.5398230088495575,
+    "f1-score": 0.46365544350694626,
+    "support": 113
+  }
+}
